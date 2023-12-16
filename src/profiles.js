@@ -1,0 +1,20 @@
+const profiles = [
+    { id: 1, username: 'pcdoc_nanda', imageUrl: 'https://imgs.search.brave.com/dZ_dM8SDeAdwuLlavlYHWcliuIQ2PfXXaFeC97UPsI4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9kMTR1/MHAxcWtlY2gyNS5j/bG91ZGZyb250Lm5l/dC8xNTE5ODU5NjUw/XzNiMTI0NmRlLTk3/YzEtNGMxOC1iZTA1/LWUzYWYzMjA1MjZi/ZV90aHVtYm5haWxf/MjUweDI1MA.jpeg' },
+    { id: 2, username: 'jackie_chan', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJkzjx1sWa5noixjYeVv3N-7dTgjvz_RRmJ-6dUJJNienBsnb5' },
+    { id: 3, username: 'intel', imageUrl: 'https://imgs.search.brave.com/NcPmMZoL23Z5S9lKwitTxboei8qUfg_-SYAc3iHaAsw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaGluZHVzdGFu/dGltZXMuY29tL3Rl/Y2gvaW1nLzIwMjAv/MDkvMDMvOTYweDU0/MC9JbnRlbF8xNTk5/MTI3NTAzOTUwXzE1/OTkxMjc1MjY5NTAu/SlBH' },
+    { id: 4, username: 'akxsh_v3', imageUrl: 'https://imgs.search.brave.com/KJNeiLrVoBNm9M0Wdio8uToHS5DwC8WxbP-EGxeKNkM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oLW8t/bS1lLm9yZy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMi8wNC9C/bGFuay1Qcm9maWxl/LVBpY3R1cmUtMS5q/cGc' },
+    { id: 5, username: 'vancityreynolds', imageUrl: 'https://imgs.search.brave.com/3RmSy7qE7VTHa0kL3ERV2WF5S1aZRObNivtyQMqAAUY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMtaW4uYm1zY2Ru/LmNvbS9pZWRiL2Fy/dGlzdC9pbWFnZXMv/d2Vic2l0ZS9wb3N0/ZXIvbGFyZ2Uvcnlh/bi1yZXlub2xkcy0x/OTU1LTE0LTA4LTIw/MjAtMDItNTQtMTUu/anBn' },
+    { id: 6, username: 'kevinhart4real', imageUrl: 'https://imgs.search.brave.com/p7eU5AlkQ6DV2ZnqYRLP_TIHTz1wVh0pj6MdDZNwq38/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMtaW4uYm1zY2Ru/LmNvbS9pZWRiL2Fy/dGlzdC9pbWFnZXMv/d2Vic2l0ZS9wb3N0/ZXIvbGFyZ2Uva2V2/aW4taGFydC00NjAx/LTI0LTAzLTIwMTct/MTItMzgtMjIuanBn' },
+    { id: 7, username: 'prattprattpratt', imageUrl: 'https://imgs.search.brave.com/qdaxaKJQaq_BMNZ1ljN3zi6q3XPgZwjAN8CoZYUmM6A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMtaW4uYm1zY2Ru/LmNvbS9pZWRiL2Fy/dGlzdC9pbWFnZXMv/d2Vic2l0ZS9wb3N0/ZXIvbGFyZ2UvY2hy/aXMtcHJhdHQtMTI2/NzctMjQtMDMtMjAx/Ny0xMi0zNS00My5q/cGc' },
+    { id: 8, username: 'thehughjackman', imageUrl: 'https://imgs.search.brave.com/nb7ZuxFkMNxWcyzDoEwl0VNSej5jkjVElWCiQtjYCEU/rs:fit:560:320:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi83Lzc3L0xv/Z2FuX0phcGFuX1By/ZW1pZXJlX1JlZF9D/YXJwZXQtX0h1Z2hf/SmFja21hbl8lMjgz/ODQ0NTMyODQwNiUy/OV8lMjhyb3RhdGVk/JTI5LmpwZy81MTJw/eC1Mb2dhbl9KYXBh/bl9QcmVtaWVyZV9S/ZWRfQ2FycGV0LV9I/dWdoX0phY2ttYW5f/JTI4Mzg0NDUzMjg0/MDYlMjlfJTI4cm90/YXRlZCUyOS5qcGc' },
+    { id: 9, username: 'eminem', imageUrl: 'https://imgs.search.brave.com/9nAd5R_eIXrrL8wt3dsSyBOgW8vAnQjEfk7FnYSkEFQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaGVsbG9tYWdh/emluZS5jb20vaG9y/aXpvbi9zcXVhcmUv/ODM3M2YyZDU1NzQ1/LXN1cGVyLWJvd2wt/ZW1pbmVtLXQuanBn' },
+    { id: 10, username: 'rupertgrint', imageUrl: 'https://imgs.search.brave.com/1qXf_PuQFah9ANSxr_i31PbRrCnQLPakCJOK8m6ilRY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaGVsbG9tYWdh/emluZS5jb20vaG9y/aXpvbi9zcXVhcmUv/OGZiNGQ3YWQzMjBh/LXJ1cGVydC1ncmlu/dC1yYXJlLWNvbW1l/bnQtZGF1Z2h0ZXIt/dC5qcGc' },
+    { id: 11, username: 'emmawatson', imageUrl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTm1-Z2-7OuWXLRtSJIgLyVpwlaxpMS2xm92vxOi5FAkEW3Ux6U' },
+    { id: 12, username: 'alexa_bliss_wwe', imageUrl: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRBvD83gbHZ0S6idKIjNOaqhTMDHqs2X7v8VNPafSQh6Gdy-s_0' },
+    { id: 13, username: 'saraya', imageUrl: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTaiE1LlgqbrtVEg7C6YRwwsJ1JzU1xY83PD3-nWGPqDRoHbGEu    ' },
+    { id: 14, username: '_zemb._', imageUrl: 'https://imgs.search.brave.com/KJNeiLrVoBNm9M0Wdio8uToHS5DwC8WxbP-EGxeKNkM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oLW8t/bS1lLm9yZy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMi8wNC9C/bGFuay1Qcm9maWxl/LVBpY3R1cmUtMS5q/cGc' },
+    { id: 15, username: 'dakotajohnson', imageUrl: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQtav4YT9Wo8WWY5uOk5qH1ZdieWPxeAPuoM1flCFfSffbL1HrZ' },
+    { id: 16, username: 'rachelbrosnahan', imageUrl: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcStISXJvHDaJF4VCly98UqAt9E8EM5GyjsFNJ51w578fzAViMLq' },
+];
+
+export default profiles;

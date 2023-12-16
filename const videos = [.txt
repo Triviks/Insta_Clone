@@ -1,0 +1,15 @@
+const videos = [
+    {vdoUrl: './assets/videos/1.mp4'},
+    {vdoUrl: 'https://www.youtube.com/embed/6kFmhsYOjFI'},
+    {vdoUrl: 'https://www.youtube.com/embed/zl3Acv5zdUI'},
+    {vdoUrl: 'https://www.youtube.com/embed/q8okKebgw38'},
+    {vdoUrl: 'https://www.youtube.com/embed/7TXl15q_1hM'},
+    {vdoUrl: 'https://www.youtube.com/embed/0kGw9eWG_4E'},
+    {vdoUrl: 'https://www.youtube.com/embed/XQ3i8ge90Ts'},
+    {vdoUrl: 'https://www.youtube.com/embed/awxZu-s_fHE'},
+    {vdoUrl: 'https://www.youtube.com/embed/I_Gcfkkv50U'},
+    {vdoUrl: 'https://www.youtube.com/embed/bP4v2D_L53A'},
+];
+
+export default videos;
+
